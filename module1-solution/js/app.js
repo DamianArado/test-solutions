@@ -25,12 +25,12 @@
             $scope.message = "Empty item found";
             $scope.noticeType = "danger";
             break;
-          }else
+          } else
           {
             if (length<=3){
               $scope.message = "Enjoy!";
               $scope.noticeType = "success";
-            }else{
+            } else{
               $scope.message = "Too much!";
               $scope.noticeType = "warning";
             }
